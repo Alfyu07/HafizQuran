@@ -7,11 +7,12 @@ input,
 button {
 	font-family: "Poppins", sans-serif;
 }
+
+/* Style untuk Navigasi */
 nav {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	height: 60px;
-	/* min-width: 900px; */
 	flex-wrap: wrap;
 }
 .button {
@@ -34,17 +35,27 @@ nav a {
 	margin-top: 40px;
 	flex-wrap: wrap;
 }
+nav a:hover,
+.button:hover {
+	opacity: 0.5;
+	/* background-color: black; */
+}
 nav h1 {
 	margin-top: auto;
 	font-size: 28px;
 	font-weight: bold;
 	padding-top: 10px;
 }
+
 .nav-link,
 .sign-in {
 	margin-top: auto;
 	margin-bottom: 8px;
 }
+
+/* Akhir dari Nav */
+
+/* Awal dari Banner */
 .banner-container {
 	width: 1000px;
 	height: 100vh;
@@ -65,6 +76,55 @@ nav h1 {
 	left: 50px;
 	z-index: 1;
 }
-.title-container h1 {
+.title-container h2 {
 	margin-bottom: 200px;
 }
+/* Akhir Banner */
+
+/* Awal Event */
+.event-container {
+	width: 100%;
+	height: 700px;
+	background-color: #eeeded;
+	display: block;
+}
+.header-event,
+#ket-event {
+	text-align: center;
+}
+.clear {
+	width: 100%;
+}
+.section-container {
+	width: 94%;
+	height: 500px;
+	display: block;
+	margin: 0 auto;
+	margin-left: 200px;
+}
+.section-event {
+	display: inline-block;
+	width: 300px;
+	height: 100%;
+	background-color: white;
+	margin-top: 40px;
+	margin-right: 40px;
+}
+
+.section-event img {
+	display: block;
+	width: 300px;
+	margin: 10px auto;
+}
+.section-event h3 {
+	text-align: center;
+}
+.section-event p {
+	margin-left: 20px;
+}
+.section-event .button {
+	display: block;
+	margin: 0px 80px;
+}
+
+/* Masih bingung styling event nya, belum belajar flex box, mungkin belajar dlu baru bisa */
